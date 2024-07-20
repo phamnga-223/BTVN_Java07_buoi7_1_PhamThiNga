@@ -3,7 +3,7 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 1
+ * Câu 1, Câu 1.1, Câu 1.2
  */
 public class Cau1 {
 
@@ -12,11 +12,13 @@ public class Cau1 {
 //		
 //		cau1_1();
 //		
-		cau1_2();
+//		cau1_2();
 	}
 	
 	/**
-	 * Câu 1
+	 * Câu 1: Viết chương trình nhập vào 1 số nguyên
+	 * 		In ra màn hình "Đây là số nguyên dương" nếu số >= 0
+	 *  	Ngược lại in "Đây là số nguyên âm"
 	 */
 	public static void cau1 () {
 		Scanner scanner = new Scanner(System.in);
@@ -34,7 +36,9 @@ public class Cau1 {
 	}
 
 	/**
-	 * Câu 1.1
+	 * Câu 1.1: Viết chương trình nhập vào 1 số nguyên
+	 * 		In ra chuỗi "Số lẻ" nếu số đỏ lẻ
+	 * 		In ra "Số chẵn" nếu là số chẵn
 	 */
 	public static void cau1_1 () {
 		Scanner scanner = new Scanner(System.in);
@@ -52,7 +56,9 @@ public class Cau1 {
 	}
 	
 	/** 
-	 * Câu 1.2
+	 * Câu 1.2: Chương trình nhập vào 1 số nguyên
+	 * 		In ra "Số nguyên tố" Nếu số đó là số nguyên tố
+	 * 		In ra "Không phải số nguyên tố" Nếu số đó không phải số nguyên tố
 	 */
 	public static void cau1_2 () {
 		Scanner scanner = new Scanner(System.in);
@@ -70,7 +76,13 @@ public class Cau1 {
 				return;
 			}
 			
-			for (int i = 2; i <= (n/2); i++) {
+			if (n % 2 == 0) {
+				System.out.println("Không phải số nguyên tố");
+				return;
+			}
+			
+			int sqrt = (int) Math.sqrt(n);
+			for (int i = 2; i <= sqrt; i++) {
 				//Tìm được số chia hết => In ra kết quả, kết thúc chương trình
 				if (n % i == 0) {
 					System.out.println("Không phải số nguyên tố");

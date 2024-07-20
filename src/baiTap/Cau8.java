@@ -3,7 +3,7 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 8
+ * Câu 8: Nhập mảng có n phần tử các số nguyên. In ra các phần tử là số chẵn.
  */
 public class Cau8 {
 	
@@ -32,7 +32,7 @@ public class Cau8 {
 			mang[i] = scanner.nextInt();
 		}
 		
-		//B4: In ra mảng
+		//B4: In ra các phần tử là số chẵn
 		System.out.println("Các phần tử là số chẵn là: ");
 		for (int i:mang) {
 			if (i % 2 == 0) {

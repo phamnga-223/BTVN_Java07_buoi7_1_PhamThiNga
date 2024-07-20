@@ -3,7 +3,8 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 4
+ * Câu 4: Chương trình nhập vào n. Sau đó nhập vào n phần tử số nguyên
+ * 		Cuối cùng, xuất ra giá trị trung bình của mảng này.
  */
 public class Cau4 {
 	public static void main(String[] args) {

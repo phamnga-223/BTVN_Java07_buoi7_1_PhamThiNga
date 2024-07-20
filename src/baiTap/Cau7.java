@@ -3,7 +3,8 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 7
+ * Câu 7: Nhập mảng có n phần tử (bằng tay hoặc tự động) các số nguyên.
+ * 		Hiển thị mảng vừa nhập ra màn hình.
  */
 public class Cau7 {
 	

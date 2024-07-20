@@ -3,7 +3,8 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 2
+ * Câu 2: Chương trình nhập 1 số nguyên từ 1 đến 10.
+ * 		Sau khi chạy, ghi số đó ra dưới dạng chữ. VD: 1 -> Một, 2 -> Hai, ...
  */
 public class Cau2 {
 
@@ -24,7 +25,7 @@ public class Cau2 {
 		
 		//B3: In ra dạng chữ
 		for (int i = 0; i < n; i++) {
-			System.out.println(i+1 + " -> " + chu[i]);
+			System.out.println((i+1) + " -> " + chu[i]);
 		}
 	}
 }

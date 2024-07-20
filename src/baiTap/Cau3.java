@@ -3,7 +3,8 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 3
+ * Câu 3: Chương trình nhập vào số nguyên dương n.
+ * 		Tính tổng tất cả số chẵn trong khoảng từ 0-n
  */
 public class Cau3 {
 

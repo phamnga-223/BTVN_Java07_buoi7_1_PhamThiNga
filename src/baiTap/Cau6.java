@@ -3,7 +3,9 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 6
+ * Câu 6: Chương trình nhập vào chiều rộng hình vuông và có các phương thức sau
+ * 		+ Phương thức tính diện tích hình vuông
+ * 		+ Phương thức tính chu vi hình vuông
  */
 public class Cau6 {
 

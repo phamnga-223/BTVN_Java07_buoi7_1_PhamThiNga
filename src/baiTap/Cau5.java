@@ -3,7 +3,8 @@ package baiTap;
 import java.util.Scanner;
 
 /**
- * Câu 5
+ * Câu 5: Chương trình nhập vào N phần trong mảng và gán giá trị các phần tử mảng.
+ * 		Tìm số lớn nhất, số nhỏ nhất của mảng.
  */
 public class Cau5 {
 	public static void main(String[] args) {
